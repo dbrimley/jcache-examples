@@ -21,7 +21,7 @@ to you local maven repo.
 
 You should be able to switch the providers by changing the String passed to the CachingProvider...
 ```
-        // Acquire the default cache provider
-        CachingProvider cachingProvider = Caching.getCachingProvider(CACHING_PROVIDER_HAZELCAST);
+// Acquire the default cache provider
+CachingProvider cachingProvider = Caching.getCachingProvider(CACHING_PROVIDER_HAZELCAST);
 ```
 
